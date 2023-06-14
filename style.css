@@ -1,7 +1,162 @@
-body {
-    text-align:center;
+h1 {
+    text-align: center;
+    color:rgb(101, 167, 228);
+    }
     
+    p {
+    color:gold;
+    }
+    
+    
+    
+    body {
+    background-color: rgb(37, 34, 34);
+    
+        
+    }
+    
+    a {
+    text-decoration: none;
+    color:goldenrod;
+    
+    
+    }
+a:visited{
+    text-decoration:none;
+    text-align:left;
+    font-size:30px;
+    border:3px solid rgb(97, 196, 40);
+    border-radius:10px;
+    background-color: rgb(37, 8, 8);
+    padding:10px;
+    margin: 10px;
+}
+    
+    main {
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    
+    .page2 {
+    text-decoration:none;
+    text-align:left;
+    font-size:30px;
+    border:3px solid rgb(97, 196, 40);
+    border-radius:10px;
+    background-color: rgb(37, 8, 8);
+    padding:10px;
+    margin-top: 100px;
+}
 
+main h1 {
+font-size:30px;
+font-family:sans-serif;
+
+}
+
+a {
+
+    font-family:Arial;
 
 
 }
+    
+
+header{
+    background-color:#6F47D7;
+    border:10px solid #6F47D7;
+    border-radius: 10px;
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav {
+width:400px;
+display:flex;
+justify-content: space-around;   
+
+}
+
+nav a {
+    background-color:#BFA930;
+    padding:20px;
+    border-radius:20px;
+    
+}
+
+nav a:hover {
+background-color:#A68C00;
+color:black;
+
+
+}
+
+article img {
+    width:200px
+    
+
+
+}
+
+article {
+    border:5px solid gold;
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+
+
+.donate {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+
+}
+
+
+
+
+
+nav a {
+    position:absolute;
+    left:-80px;
+    transition: 0,3s;
+    padding:15px;
+    width:100px;
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    border-radius: 0 5px 6px 0;
+    }
+    
+    nav a:hover {
+    left:0px;
+    
+    }
+    
+    
+    .about {
+    top:20px;
+    background-color:#4CAF50;
+    }
+    
+    .blog {
+    top:80px;
+    background-color:#2196F3;
+    }
+    
+    .projects {
+    top:140px;
+    background-color:#f44336;
+    }
+    
+    .contact {
+    top:200px;
+    background-color:#555;
+    }
+    
+    
